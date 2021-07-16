@@ -27,4 +27,12 @@ public class AdditionTest {
         int sum = addition.add(no);
         Assert.assertEquals(12,sum);
     }
+    @Test
+    public void addingTwoNumber(){
+        String no = "12,3";
+        int sum = addition.add(no);
+        Assert.assertEquals(15, sum);
+    }
+    @Test
+    public void 
 }
