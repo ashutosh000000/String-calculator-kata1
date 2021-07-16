@@ -21,4 +21,10 @@ public class AdditionTest {
         int sum = addition.add(no);
         Assert.assertEquals(12,sum);
     }
+    @Test
+    public void numberWithComma(){
+        String no = "12,";
+        int sum = addition.add(no);
+        Assert.assertEquals(12,sum);
+    }
 }
