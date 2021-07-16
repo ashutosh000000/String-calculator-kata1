@@ -1,10 +1,11 @@
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 public class AdditionTest {
     private Addition addition;
 
-    @before
+    @Before
     public void setUp(){
         addition = new Addition();
     }
