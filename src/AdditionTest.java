@@ -15,5 +15,10 @@ public class AdditionTest {
         int sum = addition.add(no);
         Assert.assertEquals(0, sum);
     }
-
+    @Test
+    public void singleNumber(){
+        String no = "12";
+        int sum = addition.add(no);
+        Assert.assertEquals(12,sum);
+    }
 }
