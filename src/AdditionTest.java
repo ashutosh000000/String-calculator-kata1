@@ -34,5 +34,9 @@ public class AdditionTest {
         Assert.assertEquals(15, sum);
     }
     @Test
-    public void 
+    public void newLine(){
+        String no = "1\n2,3";
+        int sum = addition.add(no);
+        Assert.assertEquals(6,sum);
+    }
 }
