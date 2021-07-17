@@ -39,4 +39,10 @@ public class AdditionTest {
         int sum = addition.add(no);
         Assert.assertEquals(6,sum);
     }
+    @Test
+    public void newDelemiters(){
+        String no = "//;\n1;2";
+        int sum = addition.add(no);
+        Assert.assertEquals(3,sum);
+    }
 }
