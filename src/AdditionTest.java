@@ -45,4 +45,10 @@ public class AdditionTest {
         int sum = addition.add(no);
         Assert.assertEquals(3,sum);
     }
+    @Test
+    public void negativeNumbers(){
+        String no = "-12,3";
+        int sum = addition.add(no);
+        Assert.assertEquals(0,sum);
+    }
 }
